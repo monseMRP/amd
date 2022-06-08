@@ -1,0 +1,30 @@
+
+
+
+@keyframes appear {
+    0% {
+        opacity: -1;
+        transform: translateY(-40px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.main{
+    animation: 1s ease-out 0s 1 appear;
+}
+
+.nav-link{
+    transition: 250ms;
+}
+.nav-link:hover{
+    transform: translateY(-3px);
+    transition: 250ms;
+}
+
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
